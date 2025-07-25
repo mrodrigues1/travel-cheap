@@ -17,6 +17,7 @@ The application is built using the .NET framework and C#. It utilizes the follow
 - **Swagger (Swashbuckle)**: For API documentation.
 - **FluentValidation**: For request validation.
 - **Dijkstra's algorithm**: a classic algorithm for finding the shortest paths between nodes in a graph.
+- - **Persistence in .txt file**: located at `TravelCheap\TravelCheap.Api\Infrastructure\Data\Flight_Routes.txt`
 
 ## Cheapest Route Development
 The cheapest route is calculated using an implementation of Dijkstra's algorithm. This algorithm finds the shortest path between two nodes in a graph, where the "distance" is the cost of travel. The implementation can be found in the `RouteCalculator.cs` file within the `TravelCheap.Api/Services` directory.
